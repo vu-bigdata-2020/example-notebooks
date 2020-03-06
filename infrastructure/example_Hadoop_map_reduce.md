@@ -93,7 +93,7 @@ cd $HADOOP_HOME
 
 ./bin/hadoop jar ./share/hadoop/tools/lib/hadoop-streaming-2.10.0.jar  -input <input-data-file> -output <output-data-path> -mapper <mapper.py> -reducer <reducer.py>
   
-## example Map reduce program to run
+## Example Map Reduce program for Word count
 
 ### Download the movielens ml-100k.zip dataset from https://grouplens.org/datasets/movielens/100k/ and unzip in $HADOOP_HOME 
 
@@ -104,6 +104,12 @@ $ wget http://files.grouplens.org/datasets/movielens/ml-100k.zip
 $ unzip  ml-100k.zip
 
 ./bin/hadoop jar ./share/hadoop/tools/lib/hadoop-streaming-2.10.0.jar  -input ./ml-100k/u.item -output myoutput -mapper /home/nithin/hadoop-2.10.0/mapper.py -reducer /home/nithin/hadoop-2.10.0/reducer.py
+
+
+## Example MAp Reduce program to run using python MRJob lib in colab
+
+
+
 
 
   
