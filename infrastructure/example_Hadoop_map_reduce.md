@@ -1,4 +1,4 @@
-#                                                ASSIGNMENT 3 -  HADOOP AND MAP REDUCE 
+#                                                ASSIGNMENT 3 -   MAP REDUCE WITH HADOOP 
 
 ## 1. Setup the VBox Instance :
 
@@ -9,8 +9,10 @@
 ### Set up a new virtualbox instance with the below configuration:
 
 * Name: Linux Ubuntu 64 bit 
-* 4 GB RAM 
+* 3 GB RAM 
 * VDI disk -Dynamically allocated 
+
+![UbuntuVM](https://github.com/vu-bigdata-2020/example-notebooks/blob/master/infrastructure/VM-installation.png)
 
 ## 2. Installation of Ubuntu Linux on VirtualBox VM and other prereqs for Hadoop:
 
