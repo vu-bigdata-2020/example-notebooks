@@ -3,7 +3,7 @@
 ## 1. Setup the VBox Instance :
 
 
-### Download and install VirtualBox https://www.virtualbox.org/
+### Download and install VirtualBox from - https://www.virtualbox.org/
 
 
 ### Set up a new virtualbox instance with the below configuration:
@@ -46,7 +46,6 @@ export PATH
 
 ### Also open file /etc/hadoop in hadoop install folder and update file at its end -
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
-
 
 
 ### Create a passwordless ssh
