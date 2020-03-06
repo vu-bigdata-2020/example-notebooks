@@ -1,5 +1,6 @@
-****************************************HADOOP AND MAP REDUCE EXAMPLE***************************
-1)Setup the VBox Instance setup, 
+#HADOOP AND MAP REDUCE EXAMPLE
+
+1)Setup the VBox Instance setup 
 
 
 a)Download and install VirtualBox https://www.virtualbox.org/
