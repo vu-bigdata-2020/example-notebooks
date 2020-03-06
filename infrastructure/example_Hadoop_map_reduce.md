@@ -117,7 +117,7 @@ pip install mrjob
 python WordCount.py ./ml-100k/u.item
 
 
-## Assignment
+## 6. Assignment
 
 TBD
 
