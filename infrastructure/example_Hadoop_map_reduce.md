@@ -1,6 +1,6 @@
 #                                                ASSIGNMENT 3 -  HADOOP AND MAP REDUCE 
 
-## Setup the VBox Instance :
+## 1.Setup the VBox Instance :
 
 
 ### Download and install VirtualBox https://www.virtualbox.org/
@@ -12,7 +12,7 @@
 * 4 GB RAM 
 * VDI disk -Dynamically allocated 
 
-## Installation of Ubuntu Linux on VirtualBox VM and other prereqs for Hadoop:
+## 2.Installation of Ubuntu Linux on VirtualBox VM and other prereqs for Hadoop:
 
 ### Download an image for Ubuntu Linux OS 18.4 LTS from -
 https://ubuntu.com/download/desktop
@@ -30,7 +30,7 @@ $ sudo apt-get install openjdk-8-jre
 $ sudo apt-get install openssh-server 
 
 
-## Standalone version install of hadoop 
+## 3.Standalone version install of hadoop 
 
 ### Set the below env variable
 
@@ -61,7 +61,7 @@ $ ssh-copy-id -i /home/<uname>/.ssh/id_rsa.pub <uname>@localhost
 $ ssh localhost
 
 
-## Download and unzip the hadoop
+## 4.Download and unzip the hadoop
 
 ### Download Hadoop from http://www.apache.org/dyn/closer.cgi/hadoop/common/
 
@@ -80,7 +80,7 @@ export HADOOP_HOME=<Your hadoop home directory path>
 export PATH=$PATH:$HADOOP_HOME/bin
 
 
-## Running Map Reduce programs on Standalone Hadoop
+## 5.Running Map Reduce programs on Standalone Hadoop
 
 ### The hadoop streaming library is located in below path from the hadoop installation folder
 
