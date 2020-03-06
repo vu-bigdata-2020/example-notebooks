@@ -1,35 +1,37 @@
-#                                                 HADOOP AND MAP REDUCE EXAMPLE
+#                                                ASSIGNMENT 3 -  HADOOP AND MAP REDUCE 
 
-## 1)Setup the VBox Instance setup 
+## Setup the VBox Instance :
 
 
-a)Download and install VirtualBox https://www.virtualbox.org/
+### Download and install VirtualBox https://www.virtualbox.org/
 
-b)Download an image for Ubuntu Linux OS 18.4 LTS from -
+
+### Set up a new virtualbox instance with the below configuration:
+
+* Name: Linux Ubuntu 64 bit 
+* 4 GB RAM 
+* VDI disk -Dynamically allocated 
+
+## Installation of Ubuntu Linux on VirtualBox VM :
+
+### Download an image for Ubuntu Linux OS 18.4 LTS from -
 https://ubuntu.com/download/desktop
 
-c)Set up a new virtualbox instance with the below configuration:
-
--Linux Ubuntu 64 bit 
--4 GB RAM 
--VDI disk -Dynamically allocated 
+### Point to the Ubuntu OS image you downloaded and install Ubuntu on the VM 
 
 
-d)Point to the Ubuntu OS image you downloaded and install Ubuntu on the VM 
-
-
-e)Install Java 8 on Ubuntu Linux. This is a prerequisite for Hadoop.
+## Install Java 8 on Ubuntu Linux. This is a prerequisite for Hadoop.
 
 $ sudo apt-get install openjdk-8-jre
 
 
-f)Install OpenSSH server
+## Install OpenSSH server
 
 $ sudo apt-get install openssh-server 
 
 
 
-2)Standalone version install of hadoop 
+### Standalone version install of hadoop 
 
 a)set the below env variable
 
