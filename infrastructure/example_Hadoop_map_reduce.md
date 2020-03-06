@@ -106,7 +106,20 @@ $ unzip  ml-100k.zip
 ./bin/hadoop jar ./share/hadoop/tools/lib/hadoop-streaming-2.10.0.jar  -input ./ml-100k/u.item -output myoutput -mapper /home/nithin/hadoop-2.10.0/mapper.py -reducer /home/nithin/hadoop-2.10.0/reducer.py
 
 
-## Example MAp Reduce program to run using python MRJob lib in colab
+## Example Map Reduce program to run using python MRJob lib - This is little easy :)
+
+### install the mrjob python library
+
+pip install mrjob
+
+### run the Map reduce using mrjob python library
+
+python WordCount.py ./ml-100k/u.item
+
+
+## Assignment
+
+TBD
 
 
 
