@@ -87,11 +87,13 @@ export PATH=$PATH:$HADOOP_HOME/bin
 
 $HADOOP_INSTALLATION_FOLDER/share/hadoop/tools/lib/hadoop-streaming-2.10.0.jar
 
-### cmd to run map reduce on local machine -
+### cmd to run map reduce on local machine with Hadoop streaming -
 
 cd $HADOOP_HOME
 
-./bin/hadoop jar ./share/hadoop/tools/lib/hadoop-streaming-2.10.0.jar  -input myinput -output myoutput -mapper /home/home/hadoop-2.10.0/mapper.py -reducer /home/nithin/hadoop-2.10.0/reducer.py
+./bin/hadoop jar ./share/hadoop/tools/lib/hadoop-streaming-2.10.0.jar  -input <input-data-file> -output <output-data-path> -mapper <mapper.py> -reducer <reducer.py>
+
+
 
 
 
