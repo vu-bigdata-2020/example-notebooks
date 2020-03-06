@@ -53,12 +53,15 @@ JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 ### Create a passwordless ssh
 
 * generates the key
+
 $ ssh-keygen
 
 * copy it
+
 $ ssh-copy-id -i /home/<uname>/.ssh/id_rsa.pub <uname>@localhost
 
 * Check if you can ssh localhost without password 
+
 $ ssh localhost
 
 
